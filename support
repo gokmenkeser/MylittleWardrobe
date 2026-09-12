@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Support | My Little Wardrobe</title>
+    <meta name="description"
+          content="Get help with My Little Wardrobe, Premium purchases, restoring purchases, and your outfit album.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #090b10;
+            color: #f7f9fc;
+            font-family: -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        main {
+            width: min(860px, calc(100% - 32px));
+            margin: 48px auto;
+        }
+
+        header,
+        section {
+            padding: 32px;
+            margin-bottom: 20px;
+            background: #131823;
+            border: 1px solid #252d3b;
+            border-radius: 20px;
+        }
+
+        .brand {
+            margin: 0 0 12px;
+            color: #ff9fc2;
+            font-weight: 600;
+        }
+
+        h1 {
+            margin: 0 0 16px;
+            font-size: clamp(2rem, 6vw, 3rem);
+            line-height: 1.2;
+        }
+
+        h2 {
+            margin: 0 0 16px;
+            font-size: 1.35rem;
+        }
+
+        p,
+        li {
+            color: #bbc5d5;
+        }
+
+        p {
+            margin: 0 0 16px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: #a9c7ff;
+            overflow-wrap: anywhere;
+        }
+
+        a:focus-visible,
+        summary:focus-visible {
+            outline: 3px solid #ff9fc2;
+            outline-offset: 5px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            margin: 8px 0 16px;
+            padding: 13px 22px;
+            background: #ff9fc2;
+            color: #241522;
+            border-radius: 12px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .contact-button:hover {
+            background: #ffb9d3;
+        }
+
+        ul,
+        ol {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        details {
+            padding: 18px 0;
+            border-top: 1px solid #252d3b;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        details p,
+        details ol {
+            margin-top: 14px;
+        }
+
+        .note {
+            padding: 16px;
+            background: #1b2230;
+            border-radius: 12px;
+        }
+
+        footer {
+            padding: 16px;
+            text-align: center;
+            color: #a0adbf;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 20px auto;
+            }
+
+            header,
+            section {
+                padding: 24px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<main>
+    <header>
+        <p class="brand">My Little Wardrobe</p>
+        <h1>How can we help?</h1>
+        <p>
+            Need help with the game, your Premium purchase,
+            or a technical issue? Contact the developer below.
+        </p>
+
+        <a class="contact-button"
+           href="mailto:gokmenkeser@hotmail.com?subject=My%20Little%20Wardrobe%20Support">
+            Email Support
+        </a>
+
+        <p>
+            <a href="mailto:gokmenkeser@hotmail.com">
+                gokmenkeser@hotmail.com
+            </a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Before you contact us</h2>
+        <p>Please include the following details where possible:</p>
+
+        <ul>
+            <li>Your device model and iOS or Android version.</li>
+            <li>The installed version of My Little Wardrobe.</li>
+            <li>A short description of the issue and how it happened.</li>
+            <li>A screenshot, if it helps explain the problem.</li>
+        </ul>
+
+        <p class="note">
+            Parents and guardians should send support requests on behalf
+            of children. Please do not send passwords, payment-card
+            details, or a child's personal information. Hide sensitive
+            information in screenshots.
+        </p>
+    </section>
+
+    <section>
+        <h2>Frequently asked questions</h2>
+
+        <details>
+            <summary>What is included for free?</summary>
+            <p>
+                The first five items in each category are free.
+                Additional Premium items can be unlocked with an
+                optional one-time purchase.
+            </p>
+        </details>
+
+        <details>
+            <summary>Is Premium a subscription?</summary>
+            <p>
+                No. Premium is a one-time purchase, not a subscription.
+                It unlocks the game's Premium wardrobe items.
+            </p>
+        </details>
+
+        <details>
+            <summary>How do I restore my Premium purchase?</summary>
+            <ol>
+                <li>Connect your device to the internet.</li>
+                <li>
+                    Make sure you are using the same App Store or
+                    Google Play account used for the original purchase.
+                </li>
+                <li>
+                    Open the game's settings or purchase area and
+                    complete the parental gate.
+                </li>
+                <li>Select Restore Purchases.</li>
+            </ol>
+            <p>
+                Purchases are tied to the store where they were made.
+                An Apple purchase cannot be restored through Google
+                Play, or vice versa.
+            </p>
+        </details>
+
+        <details>
+            <summary>I paid, but Premium items are still locked.</summary>
+            <p>
+                Check that the store shows the purchase as completed,
+                rather than pending or cancelled. Restart the game
+                while connected to the internet, then try Restore
+                Purchases.
+            </p>
+            <p>
+                If the issue continues, email support with your device
+                details and the purchase date. Do not purchase again
+                to troubleshoot. If proof of purchase is needed,
+                redact unrelated personal and payment information.
+            </p>
+        </details>
+
+        <details>
+            <summary>How do I request a refund?</summary>
+            <p>
+                Payments and refund decisions are handled by the store
+                where you made the purchase, under its refund policies.
+            </p>
+            <ul>
+                <li>
+                    Apple:
+                    <a href="https://reportaproblem.apple.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        Request help with a purchase
+                    </a>
+                </li>
+                <li>
+                    Google Play:
+                    <a href="https://support.google.com/googleplay/answer/2479637"
+                       target="_blank" rel="noopener noreferrer">
+                        Refund information
+                    </a>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Where are my outfit photos saved?</summary>
+            <p>
+                Outfit pictures are saved in the game's album on your
+                device. After selecting Ready, allow the photo capture
+                to finish before leaving the result screen. Tap a
+                saved picture in the album to view it larger.
+            </p>
+            <p>
+                The album is not a cloud photo service. Deleting the
+                app or clearing its storage may remove your saved
+                outfits and pictures. Restoring Premium does not
+                restore album photos.
+            </p>
+        </details>
+
+        <details>
+            <summary>The game crashes or does not display correctly.</summary>
+            <p>
+                Close and reopen the game, restart your device, and
+                check for an available game update and sufficient free
+                storage.
+            </p>
+            <p>
+                Avoid uninstalling the game as your first troubleshooting
+                step, because local progress and album photos may be
+                lost. If the issue continues, send us your device model,
+                game version, and a screenshot or description.
+            </p>
+        </details>
+
+        <details>
+            <summary>Can I turn off music and sound effects?</summary>
+            <p>
+                Yes. The game provides separate controls for music
+                and sound effects. If you cannot hear audio, also
+                check your device's media volume and audio settings.
+            </p>
+        </details>
+
+        <details>
+            <summary>How can I ask a privacy question?</summary>
+            <p>
+                Email
+                <a href="mailto:gokmenkeser@hotmail.com?subject=My%20Little%20Wardrobe%20Privacy">
+                    gokmenkeser@hotmail.com
+                </a>
+                with the subject “My Little Wardrobe Privacy”.
+                A parent or guardian may contact us about information
+                relating to their child.
+            </p>
+        </details>
+    </section>
+
+    <footer>
+        © 2026 Gökmen Keser · My Little Wardrobe
+    </footer>
+</main>
+</body>
+</html>
